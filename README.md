@@ -2,7 +2,7 @@
 
 Aplicação web para pesquisar livros por título ou autor e montar uma lista pessoal de "Quero ler".
 
-🔗 **Demo:** (link do deploy, vamos colocar já já)
+🔗 https://buscador-livros.vercel.app/
 
 ## Funcionalidades
 
