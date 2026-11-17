@@ -1,16 +1,39 @@
-# React + Vite
+# 📚 Buscador de Livros
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web para pesquisar livros por título ou autor e montar uma lista pessoal de "Quero ler".
 
-Currently, two official plugins are available:
+🔗 **Demo:** (link do deploy, vamos colocar já já)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Funcionalidades
 
-## React Compiler
+- Busca de livros por título ou autor
+- Exibição de capa, título e autor em cards
+- Lista "Quero ler" salva no navegador (localStorage)
+- Tratamento de carregamento e erros
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS
+- API [Open Library](https://openlibrary.org/developers/api)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como rodar o projeto
+
+```bash
+git clone https://github.com/Arnaud4474/buscador-livros.git
+cd buscador-livros
+npm install
+npm run dev
+```
+
+## Próximos passos
+
+- Separar o código em componentes
+- Marcar livros como lidos
+- Página de detalhes do livro
+
+## Autor
+
+Feito por [Arnaud Roberto](https://github.com/Arnaud4474)
