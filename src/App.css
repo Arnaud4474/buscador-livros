@@ -1,0 +1,100 @@
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  color: #eee;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.busca {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+.busca input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #1e1e24;
+  color: #eee;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #7c4dff;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6a3de8;
+}
+
+button.remover {
+  background: #c0392b;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.card {
+  background: #1e1e24;
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.card img,
+.sem-capa {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.sem-capa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333;
+  color: #aaa;
+}
+
+.card h3 {
+  font-size: 15px;
+  margin: 4px 0 0;
+}
+
+.card p {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+}
+
+.card button {
+  margin-top: auto;
+}
+
+.erro {
+  color: #ff6b6b;
+  text-align: center;
+}
